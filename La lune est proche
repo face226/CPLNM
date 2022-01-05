@@ -679,7 +679,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract x is Context, IERC20, Ownable {
+contract BLUE FINANCE is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -697,8 +697,8 @@ contract x is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "x";
-    string private _symbol = "x";
+    string private _name = "BLUE FINANCE";
+    string private _symbol = "BLF";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
